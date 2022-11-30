@@ -1,1 +1,1 @@
-# practice-2
+Figma example
