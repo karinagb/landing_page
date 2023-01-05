@@ -2,7 +2,7 @@
 
 body {
 	box-sizing: border-box;
-	background-color: #f7f6fa; 
+	background-color: #f7f6fa;
 
 	display: flex;
 	flex-direction: column;
@@ -13,7 +13,6 @@ body {
 }
 
 .container {
-
 	max-width: 100%;
 }
 
@@ -104,10 +103,7 @@ body {
 	align-content: center;
 	align-items: center;
 	padding: 10px 0 50px;
-
 }
-
-
 
 #hottest {
 	font-family: "Syne", sans-serif;
@@ -120,7 +116,7 @@ body {
 	padding: 0 16px 16px;
 }
 
-#hottest p {
+.hottest_p p {
 	font-family: "Space Grotesk";
 	font-size: 14px;
 	font-weight: 400;
@@ -130,7 +126,7 @@ body {
 	color: #532c59;
 	margin-bottom: 10%;
 
-	padding: 10px 0;
+	padding: 10px;
 }
 
 #hottest h2 {
@@ -145,26 +141,8 @@ body {
 	margin-top: 0;
 }
 
-.Moonbirds p {
-	font-family: "Space Grotesk";
-	font-size: 12px;
-	font-weight: 400;
-	line-height: 18px;
-	letter-spacing: 0px;
-	text-align: center;
-	padding: 0 0 10px;
-}
-
-.Clone p {
-	font-family: "Space Grotesk";
-	font-size: 12px;
-	font-weight: 400;
-	line-height: 18px;
-	letter-spacing: 0px;
-	text-align: center;
-	padding: 0 0 10px;
-}
-
+.Moonbirds,
+.Clone,
 .Dragon p {
 	font-family: "Space Grotesk";
 	font-size: 12px;
@@ -172,9 +150,8 @@ body {
 	line-height: 18px;
 	letter-spacing: 0px;
 	text-align: center;
-	padding: 0 0 10px;
+	padding: 0 0 30px;
 }
-
 
 #hottest img {
 	height: 396px;
@@ -201,8 +178,9 @@ body {
 	padding: 16px;
 }
 
-#our_team p {
-	font-family: 'Space Grotesk';
+.our_team_p,
+.team p {
+	font-family: "Space Grotesk";
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 20px;
@@ -213,8 +191,6 @@ body {
 }
 
 .team {
-
-
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -222,9 +198,6 @@ body {
 	justify-content: space-around;
 	align-content: center;
 	align-items: center;
-
-
-
 }
 
 .team h3 {
@@ -235,7 +208,6 @@ body {
 	letter-spacing: 0px;
 	text-align: center;
 	color: black;
-
 }
 
 .team img {
@@ -257,10 +229,10 @@ body {
 	line-height: 48px;
 	letter-spacing: 0px;
 	text-align: center;
-	padding:16px;
+	padding: 16px;
 }
 
-#we_provide p {
+.we_provide_p p {
 	font-family: "Space Grotesk";
 	font-size: 14px;
 	font-weight: 400;
@@ -268,6 +240,16 @@ body {
 	letter-spacing: 0px;
 	text-align: center;
 	color: #532c59;
+}
+
+.benefits {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
 }
 
 .benefits img {
@@ -307,19 +289,17 @@ body {
 	font-weight: 700;
 	line-height: 48px;
 	letter-spacing: 0px;
-	text-align: center;	
+	text-align: center;
 
 	margin-top: 40px;
 	width: 100vw;
 	overflow: hidden;
 }
 
-
 .contain_testimonials {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	
 
 	justify-content: space-around;
 	align-content: center;
@@ -348,7 +328,6 @@ body {
 	margin: 20px;
 }
 
- 
 .questions_p {
 	font-family: "Space Grotesk";
 	font-size: 14px;
@@ -358,8 +337,6 @@ body {
 	text-align: center;
 	color: #532c59;
 }
-
-
 
 .question {
 	display: flex;
@@ -373,25 +350,22 @@ body {
 	margin: 15px 0;
 }
 
-
 .question p {
 	font-family: "Space Grotesk";
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 20px;
 	text-align: left;
-	color:#000;
+	color: #000;
 
 	padding-right: 40px;
 }
 
 .arrow {
-	color: #9F7AEA;
+	color: #9f7aea;
 	width: 20px;
 	height: 20px;
-
 }
-
 
 #ready {
 	font-family: "Syne";
@@ -402,7 +376,6 @@ body {
 	text-align: center;
 	align-content: center;
 
-	
 	border: 1px solid #d6bcfa;
 	border-radius: 40px;
 	box-shadow: inset 0px 0px 50px #f8e0fa;
@@ -411,7 +384,7 @@ body {
 	margin: 10px;
 }
 
-.ready_p {
+#ready p {
 	font-family: "Space Grotesk";
 	font-size: 12px;
 	font-weight: 400;
@@ -438,7 +411,8 @@ body {
 }
 
 footer {
-	padding: 50px 10px 0;
+	padding-top: 70px;
+	width: 100%;
 }
 
 .end_logo {
@@ -446,34 +420,28 @@ footer {
 }
 
 .extra {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-
+	margin: 16px;
 	border-top: 1px solid #ccd5df;
 	border-bottom: 1px solid #ccd5df;
 }
 
 .extra_items {
-
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	align-content: space-between;
-	height: 180px;
-
+	justify-content: space-around;
 
 	font-family: "Space Grotesk";
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 40px;
 	opacity: 50%;
-	background: #fcfaff;
 }
 
+.item {
+	padding: 10px 30px;
+}
 .copyright {
-	
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -488,9 +456,107 @@ footer {
 }
 
 @media (min-width: 768px) {
+	#banner_main {
+		padding: 16px 34px 70px;
+		background-image: url("./images/background.jpeg");
+	}
 
+	#banner_main h1 {
+		font-size: 72px;
+		line-height: 88px;
+	}
 
+	#banner_main p {
+		font-family: "Space Grotesk";
 
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
 
-	
+		padding: 20px 34px 20px;
+	}
+
+	#logos {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+
+		justify-content: space-around;
+		align-content: center;
+		align-items: center;
+		padding: 10px 150px 50px;
+	}
+
+	#logos img {
+		width: 150px;
+	}
+
+	#hottest {
+		font-size: 40px;
+		font-weight: 700;
+		line-height: 56px;
+		padding: 10px 34px 10px;
+	}
+
+	.hottest_p p {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+	}
+
+	.Moonbirds, .Clone, .Dragon p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.collections {
+		display: flex;
+		flex-direction: row;
+	}
+
+	#hottest img {
+		height: 396px;
+		width: 240px;
+
+		border-radius: 30px;
+
+		box-shadow: inset 10px -10px 0px rgba(255, 255, 255, 0.5);
+		border-radius: 30px;
+	}
+
+	#our_team {
+		padding: 10px 72px 10px;
+	}
+	.our_team_p p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.team p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	#we_provide {
+		padding: 10px 72px 10px;
+	}
+
+	.we_provide_p p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.benefits h3 {
+		font-size: 28px;
+		font-weight: 700;
+		line-height: 36px;
+	}
+
+	.benefits p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	#ready {
+	}
 }
