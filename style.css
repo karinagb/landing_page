@@ -262,7 +262,7 @@ body {
 }
 
 .benefit{
-	flex: 300px;
+	width: 300px;
 }
 
 .benefits img {
@@ -608,10 +608,7 @@ footer {
 		padding: 16px;
 		display: flex;
 		flex-direction: row;
-	
-	}
-	.title_and_p {
-		flex: 800px;
+		padding: 32px;
 	}
 
 	#questions h1 {
@@ -619,6 +616,7 @@ footer {
 		font-weight: 600;
 		line-height: 56px;
 		text-align: left;
+		margin: 15px 0;
 	}
 	
 	.questions_p {
@@ -626,9 +624,13 @@ footer {
 		font-weight: 400;
 		line-height: 24px;
 		text-align: left;
-		margin:20px;
 	}
 	
+	.question {
+		width: 330px;
+		margin-left: 20px;
+	}
+
 	.question p {
 		font-size: 20px;
 		font-weight: 500;
