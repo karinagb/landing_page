@@ -261,9 +261,6 @@ body {
 	align-items: center;
 }
 
-.benefit{
-	width: 300px;
-}
 
 .benefits img {
 	height: 40px;
@@ -432,11 +429,6 @@ footer {
 
 
 
-.end_logo img {
-
-
-}
-
 .extra {
 	margin: 16px;
 	border-top: 1px solid #ccd5df;
@@ -473,9 +465,17 @@ footer {
 	margin: 30px;
 }
 
+
+
+
+
+
+
+
+
 @media (min-width: 768px) {
 	#banner_main {
-		padding: 16px 34px 70px;
+		padding: 16px 32px 70px;
 		background-image: url("./images/background.jpeg");
 	}
 
@@ -491,7 +491,7 @@ footer {
 		font-weight: 400;
 		line-height: 24px;
 
-		padding: 20px 34px 20px;
+		padding: 20px 32px 20px;
 	}
 
 	#logos {
@@ -502,7 +502,7 @@ footer {
 		justify-content: space-around;
 		align-content: center;
 		align-items: center;
-		padding: 10px 150px 50px;
+		padding: 35px 150px;
 	}
 
 	#logos img {
@@ -513,13 +513,21 @@ footer {
 		font-size: 40px;
 		font-weight: 700;
 		line-height: 56px;
-		padding: 10px 34px 10px;
+		padding: 35px 32px;
 	}
 
 	.hottest_p {
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 24px;
+		padding: 20px 0;
+	}
+
+	#hottest h2 {
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 32px;
+		padding: 20px 0;
 	}
 
 	.Moonbirds, .Clone, .Dragon p {
@@ -543,11 +551,21 @@ footer {
 	}
 
 	#our_team {
-		padding: 10px 72px 10px;
+		font-size: 40px;
+		font-weight: 700;
+		line-height: 56px;
+		padding: 35px 32px;
 	}
 	.our_team_p {
 		font-size: 16px;
 		line-height: 24px;
+		padding: 20px 0;
+	}
+
+	.team h3 {
+		font-size: 24px;
+		font-weight: 500px;
+		line-height: 32px;
 	}
 
 	.team p {
@@ -556,12 +574,21 @@ footer {
 	}
 
 	#we_provide {
-		padding: 10px 72px 10px;
+		font-size: 40px;
+		font-weight: 700;
+		line-height: 56px;
+		padding: 35px 32px;
 	}
 
 	.we_provide_p {
 		font-size: 16px;
 		line-height: 24px;
+		padding: 20px 0;
+	}
+
+
+	.benefit{
+		width: 300px;
 	}
 
 	.benefits h3 {
@@ -608,7 +635,7 @@ footer {
 		padding: 16px;
 		display: flex;
 		flex-direction: row;
-		padding: 32px;
+		padding: 35px 32px;
 	}
 
 	#questions h1 {
@@ -651,5 +678,233 @@ footer {
 		.end_logo {
 			height: 50px;
 		}
+}
 
+
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+	#banner_main {
+		padding: 16px 120px 70px;
+		background-image: url("./images/background.jpeg");
+	}
+
+	#banner_main h1 {
+		font-size: 80px;
+		line-height: 96px;
+	}
+
+	#banner_main p {
+		font-family: "Space Grotesk";
+
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+
+		padding: 20px 0;
+	}
+
+	#logos {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+
+		justify-content: space-around;
+		align-content: center;
+		align-items: center;
+		padding: 35px 50px;
+	}
+
+	#logos img {
+		width: 150px;
+	}
+
+	#hottest {
+		font-size: 48px;
+		font-weight: 700;
+		line-height: 64px;
+		padding: 35px 30px;
+	}
+
+	.hottest_p {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		padding: 20px 90px;
+	}
+
+	#hottest h2 {
+		font-size: 32px;
+		font-weight: 700;
+		line-height: 42px;
+		padding: 20px 0;
+	}
+
+	.Moonbirds, .Clone, .Dragon p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.collections {
+		display: flex;
+		flex-direction: row;
+	}
+
+	#hottest img {
+		height: 320px;
+		width: 220px;
+
+		border-radius: 30px;
+
+		box-shadow: inset 10px -10px 0px rgba(255, 255, 255, 0.5);
+		border-radius: 30px;
+	}
+
+	#our_team {
+		font-size: 48px;
+		font-weight: 700;
+		line-height: 64px;
+		padding: 35px 50px;
+	}
+	.our_team_p {
+		font-size: 16px;
+		line-height: 24px;
+		padding: 20px 70px;
+	}
+
+	.team h3 {
+		font-size: 24px;
+		font-weight: 500px;
+		line-height: 32px;
+	}
+
+	.team p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	#we_provide {
+		font-size: 48px;
+		font-weight: 700;
+		line-height: 64px;
+		padding: 35px 50px;
+	}
+
+	.we_provide_p {
+		font-size: 16px;
+		line-height: 24px;
+		padding: 20px 70px;
+	}
+
+
+	.benefit{
+		width: 200px;
+	}
+
+	.benefits h3 {
+		font-size: 28px;
+		font-weight: 700;
+		line-height: 36px;
+	}
+
+	.benefits p {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 10px 0;
+	}
+
+	#testimonials {
+		font-family: "Syne", sans-serif;
+		color: black;
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 48px;
+		letter-spacing: 0px;
+		text-align: center;
+	
+		margin-top: 40px;
+		width: 100vw;
+		overflow: hidden;
+	}
+	
+	.contain_testimonials {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	
+		justify-content: space-around;
+		align-content: center;
+		align-items: center;
+	
+		margin: 50px;
+		width: 924px;
+	
+	}
+	
+
+	#questions {
+		padding: 16px;
+		display: flex;
+		flex-direction: row;
+		padding: 35px 50px;
+	}
+
+	#questions h1 {
+		font-size: 48px;
+		font-weight: 600;
+		line-height: 64px;
+		text-align: left;
+		margin: 15px 0;
+	}
+	
+	.questions_p {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		text-align: left;
+	}
+	
+	.question {
+		width: 330px;
+		margin-left: 20px;
+	}
+
+	.question p {
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 26px;
+	}
+
+	#ready {
+		font-size: 48px;
+		font-weight: 600;
+		line-height: 64px;
+
+		margin: 35px 50px;
+		padding: 70px;
+	}
+
+	#ready p {
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 24px;
+		padding: 20px;
+	}
+
+
+	.logo_extra {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		padding: 0 50px;
+		}
+
+		.end_logo {
+			height: 50px;
+		}
 }
