@@ -1,1 +1,1 @@
-# https://karinagb.github.io/page2/
+# https://karinagb.github.io/landing_page/
