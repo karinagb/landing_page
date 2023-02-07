@@ -980,6 +980,9 @@ footer {
 	}
 
 	#testimonials {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		font-family: "Syne", sans-serif;
 		color: black;
 		font-size: 48px;
