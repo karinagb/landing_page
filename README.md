@@ -1,1 +1,1 @@
-# https://karinagb.github.io/landing_page/
+# https://karinagb.github.io/nft_page/
